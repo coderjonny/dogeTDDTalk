@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBAD9DF419DA115C00A38AA3 /* Doge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD9DF319DA115C00A38AA3 /* Doge.swift */; };
 		FBD3BABF19D227F300B16EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3BABE19D227F300B16EFF /* AppDelegate.swift */; };
 		FBD3BAC119D227F300B16EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3BAC019D227F300B16EFF /* ViewController.swift */; };
 		FBD3BAC419D227F300B16EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD3BAC219D227F300B16EFF /* Main.storyboard */; };
 		FBD3BAC619D227F300B16EFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD3BAC519D227F300B16EFF /* Images.xcassets */; };
 		FBD3BAC919D227F300B16EFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD3BAC719D227F300B16EFF /* LaunchScreen.xib */; };
 		FBD3BAD519D227F300B16EFF /* dogeAgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD3BAD419D227F300B16EFF /* dogeAgeTests.swift */; };
+		FBD3BADF19D22BA500B16EFF /* doge.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD3BADE19D22BA500B16EFF /* doge.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FBAD9DF319DA115C00A38AA3 /* Doge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doge.swift; sourceTree = "<group>"; };
 		FBD3BAB919D227F300B16EFF /* dogeAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dogeAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD3BABD19D227F300B16EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBD3BABE19D227F300B16EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		FBD3BACE19D227F300B16EFF /* dogeAgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dogeAgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD3BAD319D227F300B16EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBD3BAD419D227F300B16EFF /* dogeAgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogeAgeTests.swift; sourceTree = "<group>"; };
+		FBD3BADE19D22BA500B16EFF /* doge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doge.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,9 @@
 			children = (
 				FBD3BABE19D227F300B16EFF /* AppDelegate.swift */,
 				FBD3BAC019D227F300B16EFF /* ViewController.swift */,
+				FBAD9DF319DA115C00A38AA3 /* Doge.swift */,
 				FBD3BAC219D227F300B16EFF /* Main.storyboard */,
+				FBD3BADE19D22BA500B16EFF /* doge.png */,
 				FBD3BAC519D227F300B16EFF /* Images.xcassets */,
 				FBD3BAC719D227F300B16EFF /* LaunchScreen.xib */,
 				FBD3BABC19D227F300B16EFF /* Supporting Files */,
@@ -194,6 +200,7 @@
 			files = (
 				FBD3BAC419D227F300B16EFF /* Main.storyboard in Resources */,
 				FBD3BAC919D227F300B16EFF /* LaunchScreen.xib in Resources */,
+				FBD3BADF19D22BA500B16EFF /* doge.png in Resources */,
 				FBD3BAC619D227F300B16EFF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAD9DF419DA115C00A38AA3 /* Doge.swift in Sources */,
 				FBD3BAC119D227F300B16EFF /* ViewController.swift in Sources */,
 				FBD3BABF19D227F300B16EFF /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +413,7 @@
 				FBD3BADA19D227F300B16EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBD3BADB19D227F300B16EFF /* Build configuration list for PBXNativeTarget "dogeAgeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				FBD3BADD19D227F300B16EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
