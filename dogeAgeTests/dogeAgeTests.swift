@@ -8,7 +8,6 @@
 
 import UIKit
 import XCTest
-import dogeAge
 
 class TestingDoge: XCTestCase {
     let doge = Doge()

@@ -8,25 +8,25 @@
 
 import Foundation
 
-public class Doge {
+class Doge {
     
-    public var fetched: Bool
+    var fetched: Bool
     
-    public init() {
+     init() {
         println("Doge created!!")
         fetched = false
     }
     
-    public func fetch() {
+     func fetch() {
         fetched = true
     }
     
-    public func dogeAge(humanAge: Int) -> String {
+     func dogeAge(humanAge: Int) -> String {
         
         return "Your \(humanAge * 7) year old 🐶 is awesome"
     }
     
-    public func bark() -> String {
+     func bark() -> String {
         return "woof"
     }
 

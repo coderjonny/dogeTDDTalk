@@ -34,6 +34,20 @@
                ReferencedContainer = "container:dogeAge.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FBB6410019DC7A3700BD531E"
+               BuildableName = "dogeAge Tests.xctest"
+               BlueprintName = "dogeAge Tests"
+               ReferencedContainer = "container:dogeAge.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "FBD3BACD19D227F300B16EFF"
                BuildableName = "dogeAgeTests.xctest"
                BlueprintName = "dogeAgeTests"
+               ReferencedContainer = "container:dogeAge.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FBB6410019DC7A3700BD531E"
+               BuildableName = "dogeAge Tests.xctest"
+               BlueprintName = "dogeAge Tests"
                ReferencedContainer = "container:dogeAge.xcodeproj">
             </BuildableReference>
          </TestableReference>
