@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>CDAD9E40-C642-4817-9583-ED0D2BF25F8A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>dogeAge</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>71D77FF55D2DD51C2698CCEAF4E59DF8433BDF5F</key>
 		<string>https://github.com/coderjonny/dogeTDDTalk.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>dogeAge.xcodeproj</string>
+	<string>dogeAge.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>71D77FF55D2DD51C2698CCEAF4E59DF8433BDF5F</key>

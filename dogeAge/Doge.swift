@@ -13,7 +13,7 @@ class Doge {
     var fetched: Bool
     
      init() {
-        println("Doge created!!")
+        print("Doge created!!")
         fetched = false
     }
     

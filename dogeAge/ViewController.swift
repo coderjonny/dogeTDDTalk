@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     var myDoge = Doge()
     
@@ -16,17 +16,20 @@ class ViewController: UIViewController {
     @IBOutlet var answer: UILabel!
     
     @IBAction func pressedAge(sender: AnyObject) {
-        println("I pressed it! <3 ")
-        var age = inputAge.text.toInt()
+        print("I pressed it! <3 ")
+        let age = Int(inputAge.text!)
 
         if age > 0 {
-            var dogeAge = myDoge.dogeAge(age!)
+            let dogeAge = myDoge.dogeAge(age!)
             answer.text = dogeAge
+            
+            self.view.endEditing(true)
+            
         } else {
             answer.text = "Please put in an age"
         }
     }
-    
+
     @IBAction func pressedDoge(sender: AnyObject) {
         answer.text = myDoge.bark()
     }
@@ -34,6 +37,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        inputAge.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
