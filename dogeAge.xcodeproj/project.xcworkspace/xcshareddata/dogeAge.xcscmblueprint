@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "71D77FF55D2DD51C2698CCEAF4E59DF8433BDF5F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "71D77FF55D2DD51C2698CCEAF4E59DF8433BDF5F" : 0,
+    "5A68D4B9D89A57962E6E9901ED4058BC1D45DAC5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CDAD9E40-C642-4817-9583-ED0D2BF25F8A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "71D77FF55D2DD51C2698CCEAF4E59DF8433BDF5F" : "dogeTDDTalk\/",
+    "5A68D4B9D89A57962E6E9901ED4058BC1D45DAC5" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "dogeAge",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "dogeAge.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:coderjonny\/functions_in_swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5A68D4B9D89A57962E6E9901ED4058BC1D45DAC5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/coderjonny\/dogeTDDTalk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71D77FF55D2DD51C2698CCEAF4E59DF8433BDF5F"
+    }
+  ]
+}
