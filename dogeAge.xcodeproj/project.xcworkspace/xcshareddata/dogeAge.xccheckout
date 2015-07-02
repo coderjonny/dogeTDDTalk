@@ -10,24 +10,36 @@
 	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>5A68D4B9D89A57962E6E9901ED4058BC1D45DAC5</key>
+		<string>github.com:coderjonny/functions_in_swift.git</string>
 		<key>71D77FF55D2DD51C2698CCEAF4E59DF8433BDF5F</key>
-		<string>https://github.com/coderjonny/dogeTDDTalk.git</string>
+		<string>github.com:coderjonny/dogeTDDTalk.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>dogeAge.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>5A68D4B9D89A57962E6E9901ED4058BC1D45DAC5</key>
+		<string>../../..</string>
 		<key>71D77FF55D2DD51C2698CCEAF4E59DF8433BDF5F</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/coderjonny/dogeTDDTalk.git</string>
+	<string>github.com:coderjonny/dogeTDDTalk.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>71D77FF55D2DD51C2698CCEAF4E59DF8433BDF5F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5A68D4B9D89A57962E6E9901ED4058BC1D45DAC5</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

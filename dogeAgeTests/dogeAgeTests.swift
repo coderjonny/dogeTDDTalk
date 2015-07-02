@@ -30,18 +30,15 @@ class TestingDoge: XCTestCase {
 
     }
     
-    
     func testDogeAgeCalc() {
-        
         XCTAssertEqual(doge.dogeAge(4), "Your 28 year old 🐶 is awesome",
             "should give back in doge years ")
 
-        self.measureBlock() {
-            for var i = 10; i < 100; i++ {
-                print(self.doge.dogeAge(i))
-            }
-
-        }
+//        self.measureBlock() {
+//            for var i = 10; i < 100; i++ {
+//                print(self.doge.dogeAge(i))
+//            }
+//        }
     }
     
     func testBark() {
@@ -49,6 +46,10 @@ class TestingDoge: XCTestCase {
             "should woof back at me")
     }
     
+    func test_mapBones() {
+        XCTAssertEqual( doge.mapBones(["what", "black"]), ["whatwoof", "blackwoof"], "should pass")
+    }
+
 
 }
 

@@ -8,9 +8,19 @@
 
 import UIKit
 
+
+
 class ViewController: UIViewController, UITextFieldDelegate {
 
     var myDoge = Doge()
+    
+    func checkAge(age: Int) -> String {
+        if age >= 21 {
+            return "Okay to Drink"
+        } else {
+            return "too young to drink"
+        }
+    }
     
     @IBOutlet var inputAge: UITextField!
     @IBOutlet var answer: UILabel!
@@ -21,7 +31,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
         if age > 0 {
             let dogeAge = myDoge.dogeAge(age!)
-            answer.text = dogeAge
+            
+            answer.text = dogeAge + checkAge(age!)
             
             self.view.endEditing(true)
             
@@ -44,6 +55,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
 
 
 }

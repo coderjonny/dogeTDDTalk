@@ -29,6 +29,18 @@ class Doge {
      func bark() -> String {
         return "woof"
     }
+    
+    func mapBones(locations: [String]) -> [String] {
+        let places = locations.map({
+            (location: String) -> String in
+            let place = location + "woof"
+
+            return place
+        })
+        
+        print(places)
+        return places
+    }
 
 }
 
